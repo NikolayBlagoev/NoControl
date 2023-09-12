@@ -1,2 +1,9 @@
 # NoControl
-Virtual Controller for windows
+Virtual Controller for Windows
+
+
+## How to run:
+
+Install necessary dependencies
+
+Run main.py
