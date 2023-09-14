@@ -2,6 +2,7 @@ import vgamepad as vg
 from pynput.keyboard import Key, Listener, Controller
 gamepad = vg.VX360Gamepad()
 st_dict = {}
+
 r_vect = [0,0]
 l_vect = [0,0]
 listener=None
@@ -75,18 +76,42 @@ vkKodeToKey = {
 }
 msgprv = 0
 keyw = ""
+start_signal = None
 def on_press(key):
     global keyw
     if key == Key.f6:
-        st_dict["running"] = not st_dict["running"]
-        if st_dict["running"]:
-            btn_display.setText("STOP (F6)")
+        if not st_dict["running"]:
+            start_signal.emit(0)
         else:
+            st_dict["running"] = not st_dict["running"]
             btn_display.setText("START (F6)")
-        return
-    if not st_dict["running"]:
+            btn_display.setStyleSheet("background-color: #00941b;\n"
+"border-color: #00941b;\n"
+"color: #fff;\n"
+"border-radius: 25px;\n"
+"\n"
+"")
+        
+#         if st_dict["running"]:
+
+#         else:
+#             
         return
     key = str(key).strip("\'")
+    if not st_dict["running"]:
+        if st_dict["listening"] and st_dict["obj"] is not None and st_dict["key"] is not None:
+            st_dict["listening"] = False
+#             tmp = st_dict["key"]
+#             st_dict["obj"].setHtml(f"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+# "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+# "p, li { white-space: pre-wrap; }\n"
+# "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:17pt; font-weight:400; font-style:normal;\">\n"
+# f"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:10pt; font-weight:600;\">{tmp}: </span><span style=\" font-size:10pt;\">{key}</span></p></body></html>")
+            st_dict["obj"].change.emit(st_dict["obj"], key, st_dict["key"])
+            st_dict["obj"] = None
+            st_dict["key"] = None
+        return
+    
     if(st_dict.get(key) is None):
         # print("a",key, "a")
         
@@ -181,13 +206,16 @@ def win32_event_filter(msg, data):
         listener._suppress = True
     return
 
-def controller(key_dict = {}, btn = None):
+def controller(key_dict = {}, btn = None, strt = None):
     global st_dict
     global listener
     global btn_display
+    global start_signal
+    start_signal = strt
     btn_display = btn
     st_dict = key_dict
     listener = Listener(
         on_press=on_press,
         on_release=on_release, win32_event_filter=win32_event_filter)
     listener.start()
+    return listener

@@ -58,6 +58,10 @@
     <property name="cursor" stdset="0">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -85,6 +89,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="cursor" stdset="0">
      <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -114,6 +122,10 @@ p, li { white-space: pre-wrap; }
     <property name="cursor" stdset="0">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
@@ -141,6 +153,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="cursor" stdset="0">
      <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -172,6 +188,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -210,6 +230,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -246,6 +270,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -284,6 +312,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -320,6 +352,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -358,6 +394,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -394,6 +434,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -432,6 +476,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -468,6 +516,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -506,6 +558,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -542,6 +598,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -580,6 +640,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -616,6 +680,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -654,6 +722,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -690,6 +762,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -728,6 +804,10 @@ p, li { white-space: pre-wrap; }
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
+    </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
@@ -762,6 +842,14 @@ p, li { white-space: pre-wrap; }
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #dc3545;
+border-color: #dc3545;
+color: #fff;
+border-radius: 25px;
+
+</string>
+    </property>
     <property name="text">
      <string>STOP (F6)</string>
     </property>
@@ -785,6 +873,10 @@ p, li { white-space: pre-wrap; }
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid #ced4da;
+border-radius: 25px;</string>
     </property>
     <property name="verticalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
@@ -1576,43 +1668,30 @@ p, li { white-space: pre-wrap; }
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>530</x>
       <y>640</y>
-      <width>161</width>
+      <width>61</width>
       <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>21</pointsize>
+      <pointsize>25</pointsize>
      </font>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
-    <property name="text">
-     <string>EXPORT</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>640</y>
-      <width>161</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>21</pointsize>
-     </font>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
+    <property name="styleSheet">
+     <string notr="true">background-color: #0d6efd;
+border-color: #0d6efd;
+color: #fff;
+border-radius: 30px;
+
+</string>
     </property>
     <property name="text">
-     <string>IMPORT</string>
+     <string>?</string>
     </property>
    </widget>
   </widget>
